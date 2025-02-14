@@ -1,0 +1,71 @@
+body, html{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+}
+
+body{
+    div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 90px;
+        font-size: 50px;
+    }
+    
+    .grad{
+        align-items: center;
+        background-image: linear-gradient(purple 10%, pink, white);
+        border-radius: 20px;
+        h2{
+            text-decoration: underline;
+        }
+    }
+    .Spot_wrapped{
+        background-image: repeating-linear-gradient(90deg,green,black 7%,black 10%);
+        color: white;
+        align-items: center;
+        img{
+            width: 250px;
+            height: auto;
+        }
+        
+    }
+
+    .post{
+        align-items: center;
+        img{
+            width: 500px;
+        }
+    }
+
+    .hate{
+        
+        background-image: linear-gradient(white, red);
+        padding: 50px;
+        .hate_img{
+            flex-direction: row;
+            img{
+                width: 300px;
+            }
+        }
+    }
+    
+    .regret{
+        color: white;
+        background-image: linear-gradient(white, black 75%);
+        align-items: center;
+    }
+    .finalmsg{
+        background-image: linear-gradient(black, white, purple, red);
+    }
+    .love{
+        align-items: center;
+        margin: 30px;
+        background-image: linear-gradient(pink, white);
+        border-radius: 50px;
+        img{
+            width: 600px;
+            height: auto;
+        }
+    }
+}
